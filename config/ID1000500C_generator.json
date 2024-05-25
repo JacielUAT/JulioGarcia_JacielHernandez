@@ -1,0 +1,57 @@
+{
+    "ipdata": {
+        "comment": "PROYECTO CONVOLUCIONADOR",
+        "enom": "IP_CONVOLUCIONADOR",
+        "ipid": "1000500C"
+    },
+    "memories": {
+        "cfgReg": {
+            "comment": "configuration register",
+            "enom": "confReg",
+            "size": "1",
+            "val": "5'b00110"
+        },
+        "memIn": [
+            {
+                "comment": "mem_dataX",
+                "enom": "memX",
+                "size": "32",
+                "val": "5'b00000"
+            },
+            {
+                "comment": "mem_dataY",
+                "enom": "memY",
+                "size": "32",
+                "val": "5'b00010"
+            }
+        ],
+        "memInStream": {
+        },
+        "memOut": [
+            {
+                "comment": "mem_dataZ",
+                "enom": "memZ",
+                "size": "64",
+                "val": "5'b00100"
+            }
+        ],
+        "memOutStream": {
+        }
+    },
+    "regs": {
+        "reg1": "",
+        "reg10": "",
+        "reg11": "",
+        "reg12": "",
+        "reg13": "",
+        "reg14": "",
+        "reg15": "",
+        "reg2": "",
+        "reg3": "",
+        "reg4": "",
+        "reg5": "",
+        "reg6": "",
+        "reg7": "",
+        "reg9": ""
+    }
+}
