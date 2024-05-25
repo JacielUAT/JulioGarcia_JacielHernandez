@@ -1,0 +1,12 @@
+type,alphaID,numID,size,mode,description
+IPID,IP_CONVOLUCIONADOR,0x00000001,,,PROYECTO CONVOLUCIONADOR
+CFG,memX,0b00000,32,W,mem_dataX
+CFG,memY,0b00010,32,W,mem_dataY
+CFG,memZ,0b00100,64,R,mem_dataZ
+CFG,AemX,0b00001,1,W,Set Write Address Pointer of memX
+CFG,AemY,0b00011,1,W,Set Write Address Pointer of memY
+CFG,AemZ,0b00101,1,W,Set Read Address Pointer of memZ
+CFG,confReg,0b00110,1,W,configuration register
+CFG,AonfReg,0b00111,1,W,Set Write Address of confReg
+CFG,STATUS,0b11110,1,B,IP status register
+CFG,IPID,0b11111,1,R,IP ID
